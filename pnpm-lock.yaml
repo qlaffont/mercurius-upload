@@ -9,6 +9,7 @@ specifiers:
   form-data: ^4.0.0
   graphql: ^16.5.0
   graphql-upload: ^15.0.1
+  graphql-upload-minimal: ^1.5.5
   mercurius: ^10.0.0
   prettier: ^2.6.2
   tap: ^16.2.0
@@ -18,6 +19,7 @@ specifiers:
 dependencies:
   fastify-plugin: 4.2.0
   graphql-upload: 15.0.1_graphql@16.5.0
+  graphql-upload-minimal: 1.5.5_graphql@16.5.0
 
 devDependencies:
   '@types/node': 16.11.39
@@ -1104,6 +1106,16 @@ packages:
       lodash.merge: 4.6.2
       lodash.mergewith: 4.6.2
     dev: true
+
+  /graphql-upload-minimal/1.5.5_graphql@16.5.0:
+    resolution: {integrity: sha512-eNIBl850Sj2Lp14ak+9pK4KINQw2Hkk/t15yY3pPQ0jntkCODL5csTECxsqIYRJisoxNFnIrX4zAGlKGvXc17A==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      graphql: 0.13.1 - 16
+    dependencies:
+      busboy: 1.6.0
+      graphql: 16.5.0
+    dev: false
 
   /graphql-upload/15.0.1_graphql@16.5.0:
     resolution: {integrity: sha512-5ZbrNafgwQL8MsfEIc7ii2uX+HttE+ToyUWcBSw4Rqh+LbqYTiBaaF4emBfk5LEgwCYWI9j/RLYQzbCAOatKmg==}
